@@ -1,0 +1,42 @@
+<div>
+<h2 align="center">👋Hello World, I'm Dang Pham</h2>
+<img align="right" src="https://i.imgur.com/8lrNb78.gif" height="250"/>
+
+[![discord](https://img.shields.io/badge/-dangpham4631-blue?style=flat&logo=Discord&logoColor=white)](https://discord.com/users/695601985314881537)
+![Facebook](https://img.shields.io/badge/-Dang_Pham-blue?style=flat&logo=Facebook&logoColor=white)
+[![Gmail Badge](https://img.shields.io/badge/-phamhaidangcamche-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:phamhaidangcamche@gmail.com)](mailto:phamhaidangcamche@gmail.com)
+
+- <img src="https://imgur.com/SBgmfxb.gif" alt="." width="16" height="16"/> Developer from Vietnam  
+- <img src="https://imgur.com/TddPd6t.gif" alt="." width="16" height="16"/> IT Engineer (Hanoi University of Science and Technology) 
+- <img src="https://i.imgur.com/ZENZ6G2.gif" witdh="16" height="16" /> I am currently **full-stack developer** and **blockchain developer**
+
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=catppuccin_mocha&border=true)](https://github.com/piyushsuthar/github-readme-quotes)
+
+## My stats:
+
+<p>
+  <a href="/"  align="left">
+  <img width="auto" src="https://github-readme-stats.vercel.app/api?username=NeedAvailableName&theme=tokyonight&show_icons=true&hide_border=true&count_private=true"/>
+  </a>
+</p>
+
+<p>
+  <a href="/"  align="left">
+  <img width="auto" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NeedAvailableName&theme=tokyonight"/>
+  </a>
+</p>
+
+## Top Languages
+
+<p>
+  <a href="/"  align="right">
+  <img width="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeedAvailableName&theme=tokyonight&show_icons=true&hide_border=true&layout=compact"/>
+  </a>
+</p>
+
+## Commits
+
+![github contribution grid snake animation](https://raw.githubusercontent.com/NeedAvailableName/NeedAvailableName/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/NeedAvailableName/NeedAvailableName/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+
+## Thanks for reading ❤️
