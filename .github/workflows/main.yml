@@ -1,40 +1,57 @@
-name: generate animation
+
+name: Generate GitHub Profile Assets
 
 on:
-  # run automatically every 6 hours
   schedule:
-    - cron: "0 */8 * * *" 
-  
-  # allows to manually run the job at any time
+    - cron: "17 */8 * * *"
   workflow_dispatch:
-  
-  # run on every push on the master branch
   push:
     branches:
-    - main
-    
-  
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-profile-assets
+  cancel-in-progress: false
+
 jobs:
   generate:
-    permissions: 
-      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
+    timeout-minutes: 15
+
     steps:
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-          
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
+
+      - name: Generate GitHub stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&theme=tokyonight
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide_border=true&theme=tokyonight
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Publish assets to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
