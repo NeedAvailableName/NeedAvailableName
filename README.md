@@ -1,45 +1,81 @@
-<div>
-<h2 align="center">👋Hello World, I'm Dang Pham</h2>
+<div align="center">
 
-<span align="center">
+# Hi, I'm Dang Pham 👋
 
-[![discord](https://img.shields.io/badge/-dangpham4631-blue?style=flat&logo=Discord&logoColor=white)](https://discord.com/users/695601985314881537)
-![Facebook](https://img.shields.io/badge/-Dang_Pham-blue?style=flat&logo=Facebook&logoColor=white)
-[![Gmail Badge](https://img.shields.io/badge/-phamhaidangcamche-c14438?style=flat&logo=Gmail&logoColor=white&link=mailto:phamhaidangcamche@gmail.com)](mailto:phamhaidangcamche@gmail.com)
+### Software Engineer | Backend & Distributed Systems | Applied AI
 
-</span>
+Building reliable backend systems and exploring how to bring AI applications into production.
 
-- Developer from Vietnam  
-- IT Engineer (Hanoi University of Science and Technology) 
-- I am currently **full-stack developer** and **blockchain developer**
+📍 **Hanoi, Vietnam** · 🎓 **Hanoi University of Science and Technology** · 💼 **FPT Software**
 
+[![Email](https://img.shields.io/badge/Email-Contact%20me-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:phamhaidangcamche@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-NeedAvailableName-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/NeedAvailableName)
 
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=catppuccin_mocha&border=true)](https://github.com/piyushsuthar/github-readme-quotes)
+</div>
 
-## My stats:
+## About me
 
-<p>
-  <a href="/"  align="left">
-  <img width="auto" src="https://github-readme-stats.vercel.app/api?username=NeedAvailableName&theme=tokyonight&show_icons=true&hide_border=true&count_private=true"/>
-  </a>
-</p>
+I'm a software engineer with a backend-first mindset. I enjoy designing **scalable APIs**, **event-driven microservices**, and systems that are maintainable, observable, and secure.
 
-<p>
-  <a href="/"  align="left">
-  <img width="auto" src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=NeedAvailableName&theme=tokyonight"/>
-  </a>
-</p>
+My core experience is in **Java/Spring Boot** and **TypeScript/Node.js**, with a growing focus on **AI engineering, RAG, multi-agent workflows, and MLOps**.
 
-## Top Languages
+- 🏗️ **Backend engineering:** microservices, REST APIs, asynchronous processing, Kafka-based workflows
+- 🔐 **Security & data:** OAuth2/OIDC, Keycloak, PostgreSQL, MongoDB, Redis
+- ☁️ **Platform & reliability:** Docker, CI/CD, monitoring, logging, and distributed tracing
+- 🤖 **Applied AI:** hands-on projects and labs in LLM applications, agent orchestration, model serving, and evaluation
 
-<p>
-  <a href="/"  align="right">
-  <img width="auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeedAvailableName&theme=tokyonight&show_icons=true&hide_border=true&layout=compact"/>
-  </a>
-</p>
+## Tech stack
 
-## Commits
+| Area | Technologies |
+| --- | --- |
+| **Languages & backend** | Java, Spring Boot, TypeScript, Node.js, Python, FastAPI |
+| **Architecture** | Microservices, REST APIs, Apache Kafka, event-driven systems |
+| **Databases & security** | PostgreSQL, MongoDB, Redis, Keycloak, OAuth2/JWT |
+| **DevOps & observability** | Docker, GitHub Actions, NGINX, Prometheus, Grafana, OpenTelemetry |
+| **AI engineering (projects & labs)** | RAG, LangChain, LangGraph, MCP/A2A, LLM evaluation |
 
-![github contribution grid snake animation](https://raw.githubusercontent.com/NeedAvailableName/NeedAvailableName/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)![github contribution grid snake animation](https://raw.githubusercontent.com/NeedAvailableName/NeedAvailableName/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+## Selected public projects
 
-## Thanks for reading ❤️
+| Project | What it demonstrates |
+| --- | --- |
+| **[Distributed Multi-Agent System](https://github.com/NeedAvailableName/Day26-Track03-MCP_and_A2A_Infrastructure)** | A legal-advisory agent demo using **LangGraph** and **A2A**, with service discovery and parallel agent delegation. |
+| **[AI Service Observability Lab](https://github.com/NeedAvailableName/Day23-Track2-Observability-Lab)** | Instrumenting a FastAPI service with **OpenTelemetry**, **Prometheus**, **Grafana**, **Loki**, and **Jaeger**. |
+| **[SwiftLink — URL Shortener](https://github.com/NeedAvailableName/swiftlink---url-shortener)** | A full-stack URL shortener built with **Next.js**, **Prisma**, and **SQLite**, including click tracking and tests. |
+| **[Production RAG Pipeline Lab](https://github.com/NeedAvailableName/Day18-Track3-Production-RAG)** | Exploring retrieval pipelines: **chunking, hybrid search, reranking, and RAG evaluation**. |
+
+> These are public demos and learning projects. Much of my backend engineering work is in private or organization-owned repositories.
+
+## What I'm exploring
+
+- Designing **production-ready AI applications** with evaluation, monitoring, and clear failure handling
+- Connecting **LLM/agent workflows** to reliable backend services and APIs
+- Improving **system design, developer experience, and CI/CD** for distributed systems
+
+## GitHub activity
+
+<div align="center">
+
+<!-- These SVG files are generated daily by .github/workflows/profile-stats.yml. -->
+<img src="./profile/stats.svg" alt="Dang's GitHub statistics" height="170" />
+<img src="./profile/top-langs.svg" alt="Dang's top programming languages" height="170" />
+
+</div>
+
+## Contributions
+
+<div align="center">
+
+![GitHub contribution snake — dark mode](https://raw.githubusercontent.com/NeedAvailableName/NeedAvailableName/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+![GitHub contribution snake — light mode](https://raw.githubusercontent.com/NeedAvailableName/NeedAvailableName/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+
+</div>
+
+---
+
+<div align="center">
+
+**Let's connect and build something useful.**
+
+📫 **[phamhaidangcamche@gmail.com](mailto:phamhaidangcamche@gmail.com)**
+
+</div>
